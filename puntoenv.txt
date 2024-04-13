@@ -1,0 +1,4 @@
+SECRET_KEY=SECRETA
+MAIL_SENDER=email@gmail.com
+PASS_SENDER=clavede16caracateres
+MIN=10

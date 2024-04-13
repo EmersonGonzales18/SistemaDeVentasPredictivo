@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supermarket-Meche</title>
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylelogin.css">
+  <link rel="icon" href="/assets/icono3.png">
+
+</head>
+
+
+<body>
+<section>
+<div class="login-container">
+  <div class="login-info-container">
+    <div class="social-login">
+
+    </div>
+    <div class="iniciofor">
+    <p>BIENVENIDO</p>
+  </div>
+            <form class="loginForm" id="loginForm">
+              <div class="form-group">
+                <label class="iniciousu" for="username">Inicio de Sesión</label>
+                <input type="username" class="input"  id="username" placeholder="Ingrese su Usuario" required>
+                <ion-icon class="iconoss" name="person-outline"></ion-icon>
+
+              </div>
+              <div class="form-group">
+                <label class="iniciocontra" for="password" >Contraseña</label>
+               <input  type="password" class="input" id="password" placeholder="password"  required>
+
+               <ion-icon id="togglePassword" name="eye-outline" class="icon ion-eye" onclick="PasswordVisibilidad()"></ion-icon>
+
+
+              </div>
+              
+              <button type="submit" class="btn" id="login" >Iniciar Sesión</button>
+              <p>¿Tienes problemas? <span class="span" id="contactenos">Contactenos</span></p>
+
+              <div class="alineacion">
+                <span class="texto-informacion">Necesitas&nbsp;</span>
+
+              <a class="informacion" id="informacion" onclick="masinformacion()">Mas Información</a>
+              
+              </div>
+            </form>
+          </div>
+          <img class="image-container"  alt="">
+    
+          <div class="container-shape one" style="margin-top: 2.5px; margin-left: -4.9px;">
+            <div class="shape one"></div>
+        </div>
+        <div class="container-shape two" style="margin-top: 1.8px; margin-left: -4.5px;">
+          <div class="shape two"></div>
+      </div>
+
+      <div class="container-shape two" style="margin-top: 1px; margin-left: -1.5px;">
+        <div class="shape two"></div>
+    </div>
+      <div class="container-shape right four" style="margin-top: 100px; margin-left: -4.5px;">
+        <div class="right shape four"></div>
+        <div class="container-shape right five" style="margin-top: 100.4px; margin-left: -100px;">
+          <div class="right shape five"></div>
+          
+          </div>
+      </div>
+      
+      <a href="https://api.whatsapp.com/send?phone=51963957004" >
+        <div class="whatsapp-icono">
+        <img src="/assets/whatsap.png" alt="200px" width="200px">
+        <div class="animation"></div>
+      </div>
+      </a>
+  </div>
+
+    </div>
+  </div>
+
+</section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,491 @@
+body {
+    background-color: #01b136;
+  }
+
+  .btn-primary {
+    background-color: rgb(157, 242, 183);
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+  }
+
+
+
+  :root {
+    --login-bg:#f8f3ff;
+    --title-bg: #6151f2;
+    --button-bg: #7f51f3;
+    --light-pink: #ede7ed;
+    --image-bg:  #9334f1 ;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(/assets/fondop.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+
+}
+
+.login-container {
+    height: 35em;
+    width: 60em;
+    margin: 6em auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.login-info-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.15rem;
+    background-color:#dceef8;
+}
+
+.image-container {
+    background-image: url(/assets/imgg1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: rgb(13, 14, 13);
+    width: 50%;
+    
+    box-sizing: border-box;
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 2.25rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--title-bg);
+}
+
+.social-login {
+    background-image: url(/assets/3.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 10px;
+    width: 50%;
+    height:100px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.social-login-element {
+    width: 12.5rem;
+    height: 3.75rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    border: 1px solid var(--button-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-login-element img {
+    width: 1.875rem;
+    height: 1.875rem;
+    position: relative;
+    top: 0;
+    left: -0.625rem;
+}
+
+.social-login-element:hover {
+    background-color: #fff;
+}
+
+.login-info-container > p {
+    font-size: 1.25em;
+    margin-top: 1.5em;
+}
+
+.loginForm {
+    height: 55%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input, .btn {
+    width: 100%;
+    height: 3.125rem;
+    font-size: 1em;
+    
+}
+
+.input {
+    padding-left: 20px;
+    border: none;
+    border-radius: 7px;
+    letter-spacing: 0px;
+    box-sizing: border-box;
+}
+
+.input:hover {
+    border: 2px solid var(--button-bg);
+}
+
+.btn {
+    margin: 30px;
+    width: 60%;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(37, 34, 38);
+    
+    border: none;
+    border-radius: 15px;
+    background-color:#83daf3;
+    cursor: pointer;
+}
+.iniciousu{
+    text-align: left;
+    margin-top: 45px;
+    padding-right:180px;
+}
+.iniciocontra{
+    text-align: left;
+    padding-right:210px;
+}
+.iconoss{
+    margin-top: 45px;
+}
+
+.loginForm p {
+    margin: 0;
+}
+.iniciofor{
+    text-align: center;
+    padding: 0PX;
+    margin-top: 7PX;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+
+}
+.span {
+    color:#4066c6;
+
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .login-container {
+        width: 70%;
+        margin-top: 3rem;
+    }
+    .login-info-container {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .image-container {
+        display: none;
+    }  
+}
+
+@media screen and (max-width: 650px) {
+    .login-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .login-container {
+        height: 90%;
+    }
+
+    .social-login {
+        flex-direction: column;
+        align-items: center;
+        height: 30%;
+    }
+
+    .login-info-container > p {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+.form-group{
+    position: relative;
+    margin: 15px 0;
+    width: 310px;
+}
+
+
+
+
+@media (min-width: 1025px) {
+    .container-shape {
+        position: absolute;
+        filter: drop-shadow(5px -5px 6px rgba(0,0,0,0.4));
+        z-index: -3;
+    }
+
+        .container-shape.right {
+            filter: drop-shadow(-5px -5px 6px rgba(0,0,0,0.4));
+        }
+
+    .shape {
+        background: rgba(217, 255, 29, 0.7);
+        transform: rotate(19deg);
+    }
+
+        .shape.right {
+            background: rgba(246, 235, 25, 0.7);
+            transform: rotate(-11deg);
+        }
+
+    .container-shape.one {
+        top: 6.3%;
+        left: 26.1%;
+    }
+
+    .container-shape.two {
+        top: 56.4%;
+        left: 13.6%;
+    }
+
+    .container-shape.three {
+        top: 6.55%;
+        left: 67.6%;
+    }
+
+    .container-shape.four {
+        top: 17.79%;
+        left: 86.9%;
+    }
+
+    .container-shape.five {
+        top: 51.5%;
+        left: 75.3%;
+    }
+
+    .shape.one {
+        -webkit-clip-path: polygon(38% 0%, 100% 37%, 100% 100%, 37% 100%, 0% 37%);
+        clip-path: polygon(38% 0%, 100% 37%, 100% 100%, 37% 100%, 0% 37%);
+        width: 3vw;
+        height: 5vh;
+    }
+
+    .shape.two {
+        -webkit-clip-path: polygon(39% 0%, 100% 38%, 99% 100%, 37% 100%, 0% 38%);
+        clip-path: polygon(39% 0%, 100% 38%, 99% 100%, 37% 100%, 0% 38%);
+        width: 11vw;
+        height: 16vh;
+    }
+
+    .shape.three {
+        -webkit-clip-path: polygon(56% 0%, 100% 39%, 69% 100%, 8% 100%, 0% 37%);
+        clip-path: polygon(56% 0%, 100% 39%, 69% 100%, 8% 100%, 0% 37%);
+        width: 4vw;
+        height: 7vh;
+    }
+
+    .shape.four {
+        -webkit-clip-path: polygon(56% 0%, 100% 38%, 70% 100%, 8% 99%, 0% 37%);
+        clip-path: polygon(56% 0%, 100% 38%, 70% 100%, 8% 99%, 0% 37%);
+        width: 6vw;
+        height: 10vh;
+    }
+
+    .shape.five {
+        -webkit-clip-path: polygon(57% 0%, 100% 38%, 70% 100%, 8% 100%, 0% 38%);
+        clip-path: polygon(57% 0%, 100% 38%, 70% 100%, 8% 100%, 0% 38%);
+        width: 13vw;
+        height: 21vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.informacion img{
+    top:100%;
+
+}
+
+
+
+
+.whatsapp-icono {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    border-radius: 30px;
+    animation: pulse 1.5s infinite;
+    
+  }
+  
+  .whatsapp-icono img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    animation: pulse 1.5s infinite;
+
+  }
+
+  
+  .whatsapp-icono {
+  /* Resto de los estilos */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.whatsapp-icono img {
+  /* Resto de los estilos */
+
+  width: 100%;
+  height: auto;
+
+  border-radius: 20px;
+      object-fit: cover;
+}
+
+.whatsapp-icono .animation {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+    
+    50% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: scale(0.9);
+      opacity: 0.7;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.chat-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+  }
+  
+  .chat-icon {
+    background-color: #007bff;
+    color: #fff;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .chat-icon-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* ICONOS USER Y OJOS */
+  .form-group ion-icon{
+    position: absolute;
+    right: 20px;
+    color: #151313;
+    font-size: 1.2em;
+    top: 45px;
+}
+  
+
+
+
+
+
+
+
+
+.alineacion{
+
+    color:#3a6cec;
+    cursor: pointer;
+    margin-left: 5px;
+    text-align: left;
+
+}
+.texto-informacion {
+    color: black;
+  }
